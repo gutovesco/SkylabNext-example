@@ -1,5 +1,5 @@
 import styled, {CreateStyled} from '@emotion/styled'
 
-import customTheme from '../styles/Theme'
+import theme from '../styles/Theme'
 
-export default styled as CreateStyled<typeof customTheme>
+export default styled as CreateStyled<typeof theme>
